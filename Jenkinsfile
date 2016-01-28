@@ -1,14 +1,8 @@
-// build-genivi-swm-poc/Jenkinsfile
+// jenkins-build-genivi-swm-poc/Jenkinsfile
 
 echo 'INFO: Begin Jenkinsfile'
 
 echo 'TODO: Jenkinsfile'
-
-/** node {
-  git url: 'https://github.com/jglick/simple-maven-project-with-tests.git'
-  def mvnHome = tool 'M3'
-  sh "${mvnHome}/bin/mvn -B verify"
-} **/
 
 node {
   // TODO: Make sure that this job is allocated to a particular node (!master)
