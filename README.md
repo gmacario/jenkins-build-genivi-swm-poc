@@ -17,7 +17,7 @@
     - Definition: Pipeline script from SCM
     - SCM: Git
       - Repositories
-        - Repository URL: `https://gist.github.com/gmacario/5b13a4514c5062f1bfa1`
+        - Repository URL: `https://github.com/gmacario/jenkins-build-genivi-swm-poc.git`
 
   then click **Save**
 
