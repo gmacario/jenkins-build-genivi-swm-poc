@@ -20,6 +20,7 @@
       
         ```
         git://git.projects.genivi.org/genivi_swm.git
+        https://github.com/magnusfeuer/genivi_software_management.git
         https://github.com/gmacario/genivi_swm.git
         ```
       - Description:
