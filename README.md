@@ -13,6 +13,31 @@
   then click **OK**
 
 * Inside the project configuration page, fill-in the following information:
+  - This build is parameterized: Yes
+    - Add Parameter > Choice Parameter
+      - Name: `gitUrl`
+      - Choices:
+      
+        ```
+        TODO
+        ```
+      - Description:
+      
+        ```
+        Please select the URL of the git repository you want to build
+        ```
+    - Add Parameter > Choice Parameter
+      - Name: `gitBranch`
+      - Choices:
+      
+        ```
+        TODO
+        ```
+      - Description:
+      
+        ```
+        Please select the branch of the git repository you want to build
+        ```
   - Pipeline
     - Definition: Pipeline script from SCM
     - SCM: Git
