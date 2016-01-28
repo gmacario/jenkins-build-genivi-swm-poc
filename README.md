@@ -50,7 +50,8 @@ Instructions and Pipeline for building the [GENIVI Software Management PoC](http
 
   then click **Save**
 
-* Browse `http://${DOCKER_MACHINE_IP}:9080/job/build-genivi-swm-poc/build?delay=0sec` to trigger a build
+* Browse `http://${DOCKER_MACHINE_IP}:9080/job/build-genivi-swm-poc/`, then click **Build with Parameters**
+  - Select gitUrl, gitBranch, then click **Build**
 
 **FIXME**: Build error - see <http://139.181.213.96:9080/job/build-genivi-swm-poc/1/console>:
 
