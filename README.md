@@ -1,8 +1,10 @@
-# build-genivi-swm-poc
+# jenkins-build-genivi-swm-poc
+
+Instructions and Pipeline for building the [GENIVI Software Management PoC](http://git.projects.genivi.org/genivi_swm.git) using [Jenkins](https://jenkins-ci.org/).
 
 ## Prerequisites
 
-* [easy-jenkins](https://github.com/gmacario/easy-jenkins) installed
+* [easy-jenkins](https://github.com/gmacario/easy-jenkins) installed and running
 
 ## Instructions
 
