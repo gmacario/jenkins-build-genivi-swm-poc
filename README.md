@@ -19,7 +19,8 @@
       - Choices:
       
         ```
-        TODO
+        git://git.projects.genivi.org/genivi_swm.git
+        https://github.com/gmacario/genivi_swm.git
         ```
       - Description:
       
@@ -31,7 +32,7 @@
       - Choices:
       
         ```
-        TODO
+        master
         ```
       - Description:
       
