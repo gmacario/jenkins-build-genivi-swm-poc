@@ -4,9 +4,12 @@ echo 'INFO: Begin Jenkinsfile'
 
 echo 'TODO: Jenkinsfile'
 
+// TODO: We should probably allocate this job to a particular node (!master)
 node {
-  // TODO: Make sure that this job is allocated to a particular node (!master)
-  git url: 'git://git.projects.genivi.org/genivi_swm.git'
+  // def gitUrl = 'git://git.projects.genivi.org/genivi_swm.git'
+  // def gitBranch = 'master'
+  
+  git url: gitUrl, branch: gitBranch
   
   sh "id"
   sh "hostname"
