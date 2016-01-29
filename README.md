@@ -42,11 +42,16 @@ Instructions and Pipeline for building the [GENIVI Software Management PoC](http
         ```
         Please select the branch of the git repository you want to build
         ```
-  - Pipeline
+  - **Pipeline**
     - Definition: Pipeline script from SCM
-    - SCM: Git
-      - Repositories
-        - Repository URL: `https://github.com/gmacario/jenkins-build-genivi-swm-poc.git`
+      - SCM: Git
+        - Repositories
+          - Repository URL: `https://github.com/gmacario/jenkins-build-genivi-swm-poc.git`
+          - Credentials: - none -
+        - Branches to build
+          - Branch Specifier (blank for 'any'): `*/master`
+          - Repository browser: (Auto)
+        - Script Path: `Jenkinsfile`
 
   then click **Save**
 
