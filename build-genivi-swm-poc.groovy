@@ -1,7 +1,18 @@
-echo 'INFO: Begin build-genivi-swm-poc.groovy'
+echo 'INFO: Begin jenkins-build-genivi-swm-poc.groovy'
 
-echo 'hello from Pipeline'
+node('master') {
+  def gitUrl = 'git://git.projects.genivi.org/genivi_swm.git'
+  def gitBranch = 'master'
+  
+  git url: gitUrl, branch: gitBranch
+  
+  sh "id"
+  sh "hostname"
+  sh "df -h"
+  // sh "sudo -i"                // sudo: no tty present and no askpass program specified
+  
+  // sh "sudo ./start_swm.sh"    // sudo: not found
+  sh "./start_swm.sh"
+}
 
-checkout scm    // ???
-
-echo 'INFO: End build-genivi-swm-poc.groovy'
+echo 'INFO: End jenkins-build-genivi-swm-poc.groovy'
