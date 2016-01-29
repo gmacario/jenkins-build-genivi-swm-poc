@@ -6,13 +6,14 @@ node('master') {
   
   git url: gitUrl, branch: gitBranch
   
-  sh "id"
-  sh "hostname"
-  sh "df -h"
-  // sh "sudo -i"                // sudo: no tty present and no askpass program specified
-  
-  // sh "sudo ./start_swm.sh"    // sudo: not found
-  sh "/bin/bash -xe start_swm.sh"
+  sh 'id'
+  sh 'hostname'
+  sh 'df -h'
+  sh 'pwd'
+  sh 'ls -la'
+
+  // sh 'sudo ./start_swm.sh'    // sudo: not found
+  sh '/bin/bash -xe start_swm.sh'
 }
 
 echo 'INFO: End jenkins-build-genivi-swm-poc.groovy'
