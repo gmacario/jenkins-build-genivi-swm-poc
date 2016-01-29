@@ -12,7 +12,7 @@ node('master') {
   // sh "sudo -i"                // sudo: no tty present and no askpass program specified
   
   // sh "sudo ./start_swm.sh"    // sudo: not found
-  sh "./start_swm.sh"
+  sh "/bin/bash -xe start_swm.sh"
 }
 
 echo 'INFO: End jenkins-build-genivi-swm-poc.groovy'
